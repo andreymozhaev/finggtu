@@ -55,7 +55,7 @@ flutter:
       - assets/matepad.png
       - assets/jacket.png
       - assets/baba.jpg
-      - assets/cat.jpg
+      - assets/cat.png
       - assets/pig.png
       - assets/bird.png
       - assets/bee.png
@@ -66,6 +66,9 @@ flutter:
       - assets/car.png
       - assets/lion.png
       - assets/atm.png
+      - assets/fruits.png
+      - assets/vegetables.png
+      - assets/
       - assets/audio/
 
   # To add assets to your application, add an assets section, like this:

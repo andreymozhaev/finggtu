@@ -11,7 +11,7 @@ class StepOnePage extends StatefulWidget {
 }
 
 class _StepOnePageState extends State<StepOnePage> {
-  //AudioCache audioCache = AudioCache();
+  
   AudioPlayer advancedPlayer = AudioPlayer();
   bool isSuccessful1 = false;
   bool isSuccessful2 = false;
@@ -179,7 +179,7 @@ class _StepOnePageState extends State<StepOnePage> {
               )
             : Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [Expanded(child: Image.asset("assets/cat.jpg"))],
+                children: [Expanded(child: Image.asset("assets/cat.png"))],
               )
       ]),
     );
