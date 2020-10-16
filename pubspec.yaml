@@ -46,28 +46,6 @@ flutter:
   uses-material-design: true
 
   assets:
-      - assets/background.png
-      - assets/gamebutton.png
-      - assets/meshok.png
-      - assets/tort.png
-      - assets/candy.png
-      - assets/shoes.png
-      - assets/matepad.png
-      - assets/jacket.png
-      - assets/baba.jpg
-      - assets/cat.png
-      - assets/pig.png
-      - assets/bird.png
-      - assets/bee.png
-      - assets/fox.png
-      - assets/kaban.png
-      - assets/ogorod.png
-      - assets/sova.png
-      - assets/car.png
-      - assets/lion.png
-      - assets/atm.png
-      - assets/fruits.png
-      - assets/vegetables.png
       - assets/
       - assets/audio/
 

@@ -18,14 +18,30 @@ class _StepEightPageState extends State<StepEightPage> {
         fit: BoxFit.cover,
         alignment: Alignment.topLeft,
       )),
-      Center(
-          child: GestureDetector(
-        onTap: () {
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => StepNinePage()));
-        },
-        child: Image.asset("assets/gamebutton.png"),
-      ))
+      Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Expanded(child: Image.asset("assets/coins.png")),
+          Expanded(child: Image.asset("assets/bank.png")),
+          Expanded(
+              child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Expanded(child: Image.asset("assets/coins.png")),
+              Expanded(child: Image.asset("assets/coins.png")),
+              Expanded(
+                  child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => StepNinePage()));
+                      },
+                      child: Image.asset("assets/coins.png")))
+            ],
+          ))
+        ],
+      )
     ]));
   }
 }
